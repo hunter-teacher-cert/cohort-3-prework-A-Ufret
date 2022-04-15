@@ -1,6 +1,6 @@
-* Last name:
-* First name:
-* Github username:
+* Last name:Ufret
+* First name:Ashley
+* Github username:A-Ufret
 
 * Instructions:
 
@@ -8,7 +8,6 @@ Fill out the top of this form, commit and push it back to GitHub.
 
 For each assignment make a directory as specified in the
 assignment. Add the required files, commit and push them up to Github.
-
 
 
 * Resources:
