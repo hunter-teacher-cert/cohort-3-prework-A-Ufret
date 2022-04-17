@@ -15,6 +15,6 @@ public class Date {
       this.day = day;
    }
    public Date(){
-      this(2001,4,17);
+      this(1987,8,20);
    }
 } 
