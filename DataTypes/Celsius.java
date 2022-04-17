@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Celsius{
+public class Celsius {
    public static void main(String args[]){
       Scanner console = new Scanner(System.in);
       System.out.print("Input temperatur in Celsius: ");
