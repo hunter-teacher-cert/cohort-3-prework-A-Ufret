@@ -8,10 +8,11 @@ public class Hello {
       }
 }
     //comments - vocab to remember
-//variable - stores some value
+//variable - stores some value (numbers, words, images,operators, or symbols)set using String message;
 //literals - the value assigned to a variable
+//variable name - storage location
 //expression - evaluates to a value
-//operator - work on operands to produce a value (+)
+//operator - symobols that perform a computation (work on operands to produce a value (+))
 //operand - the things the operator is working on 
 //class - contains everything and has members
 //methods - do something
