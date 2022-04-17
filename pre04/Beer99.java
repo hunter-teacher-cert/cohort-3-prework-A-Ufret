@@ -22,7 +22,7 @@ public class Beer99 {
          } 
         else {
           System.out.println("no bottles of beer on the wall.\nNo bottles of beer on the wall,\nno bottles of beer,\nya' can't take one down, ya' can't pass it around,\ncause there are no more bottles of beer on the wall!");
-        }
-       }
- }
+        }//I did it! 
+       }//formatting corrected!! remember \n to go to new line 
+ }//add else for 2 bottles so last line reads 1 bottle
 }
