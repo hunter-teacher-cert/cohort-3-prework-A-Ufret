@@ -23,7 +23,7 @@ public class Loops3 {
         System.out.println(power);
         }
     }
-}
+
 
 //iterative method to perform the calculation:
 //6-09: recursive version of power, which takes a double x and an integer n and returns xn.
