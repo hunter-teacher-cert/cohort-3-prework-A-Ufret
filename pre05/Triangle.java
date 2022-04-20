@@ -4,7 +4,7 @@ import java.util.*;
 public class Triangle { 
    
   public static void main(String[] args){
-   System.out.println(isTriangle(5,3,7));  
+   System.out.println(isTriangle(5,15,7));  
     }
 
 	public static boolean isTriangle(int length1, int length2, int length3) {	

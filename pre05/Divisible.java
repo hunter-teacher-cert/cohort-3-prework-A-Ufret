@@ -10,7 +10,7 @@ public class Divisible {
         return true;
             } else {
         return false;
-    }       
+     }       
         }
 }
    
