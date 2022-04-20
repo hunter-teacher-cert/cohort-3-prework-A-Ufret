@@ -9,10 +9,10 @@ public class Loops3 {
         int n;
 
         System.out.print("Welcome. ");
-        System.out.print("Type in a base:  ");
+        System.out.print("Insert the base:  ");
         x= in.nextInt();
 
-        System.out.print("Type in an exponent: ");
+        System.out.print("Enter the exponent: ");
         n= in.nextInt();
 
         int power = 1;
