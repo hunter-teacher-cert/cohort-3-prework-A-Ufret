@@ -18,11 +18,14 @@ public class Ackerman {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println("A(0, 0) = " + ack(0, 0));
-		System.out.println("A(0, 1) = " + ack(0, 1));
-		System.out.println("A(1, 0) = " + ack(1, 0));
-		System.out.println("A(2, 1) = " + ack(2, 1));
-		System.out.println("A(1, 1) = " + ack(1, 1));
-		System.out.println("A(2, 2) = " + ack(2, 2));
-	}
+    System.out.println("A(3, 0) = " + ack(3, 0));
+    System.out.println("A(0, 3) = " + ack(0, 3));
+    System.out.println("A(1, 3) = " + ack(1, 3));
+    System.out.println("A(3, 1) = " + ack(3, 1));
+    System.out.println("A(2, 3) = " + ack(2, 3));
+    System.out.println("A(3, 2) = " + ack(3, 2));
+    System.out.println("A(3, 3) = " + ack(3, 3));
+    }
 }
+
+//Write a method called ack that takes two ints as parameters and that computes and returns the value of the Ackermann function.
