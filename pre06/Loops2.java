@@ -18,3 +18,4 @@ public class Loops2 {
       }while(interval > 0.001);
       return newValue;
    }
+}
