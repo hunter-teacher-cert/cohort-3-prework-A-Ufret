@@ -5,9 +5,10 @@ public class TriangleScan {
     public static void main(String[] args){
         Scanner in= new Scanner(System.in);
 
-int  =  length1
-int  =  length2
-int  =  length3
+int length1;
+int length2;
+int length3;
+  
   
   
   
