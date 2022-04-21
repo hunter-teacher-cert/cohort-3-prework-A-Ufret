@@ -19,3 +19,11 @@ public class Hello {
 //arguments - what you pass to a method (part of calling)
 //parameter - variables to store arguments (part of definition)
 //new line - \n adds space (do not include a space after \n)
+/*print line for arrays [] - System.out.println(Arrays.toString(a));
+and
+System.out.println(counts[i]);
+and 
+printArray(array);*/
+//enhanced for loop -- You can read it as, “for each value in values"
+//Each time through the loop we use i as an index into the array, displaying the ith element. 
+//You can use any expression as an index, as long as it has type "int".

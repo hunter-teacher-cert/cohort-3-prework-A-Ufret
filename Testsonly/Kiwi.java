@@ -5,6 +5,7 @@ public class Kiwi {
 
 public static void main(String[] args) {
 
+
   }
 
 
@@ -16,5 +17,7 @@ public static int banana(int[] a) {
         i++;
     }
     return kiwi;
+
+  System.out.println(banana([]a));
 }
 }
