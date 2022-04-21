@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Divisible { 
  public static void main(String[] args){
-   System.out.println(isDivisible(5,3));  
+   System.out.println(isDivisible(15,5));  
 }
       public static boolean isDivisible(int n, int m) {
           if (m != 0 && n % m == 0) {
