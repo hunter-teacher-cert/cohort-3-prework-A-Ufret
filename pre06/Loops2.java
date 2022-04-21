@@ -4,7 +4,7 @@ import java.util.*;
 public class Loops2 { 
 
   public static void main(String[] args){
-   System.out.println(squareRoot(70));
+   System.out.println(squareRoot(16));
     }   
    public static double squareRoot(double a){
       double oldValue = a/2;
