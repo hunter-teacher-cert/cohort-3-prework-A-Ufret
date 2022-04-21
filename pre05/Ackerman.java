@@ -3,8 +3,6 @@ import java.util.*;
 
 public class Ackerman { 
    
-
-
 	public static int ack(int m, int n) {
 		if (m == 0) {
 			return n + 1;
