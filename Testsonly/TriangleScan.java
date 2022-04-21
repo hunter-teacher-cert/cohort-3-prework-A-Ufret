@@ -8,13 +8,9 @@ public class TriangleScan {
 int length1;
 int length2;
 int length3;
-  
-  
-  
-  
-      
-System.out.print("Welcome. You beleive you can make a triangle? Provide 3 lengths in the same units, to see if your statement is True or False. Do not include the units, enter the length for each side when prompted");
-        System.out.println("Type the length of Side 1:");
+     
+System.out.print("Welcome to Ashley's Triangle Checker!\nWhen prompted, provide the length of each side to check whether it is a triangle.  ");
+        System.out.println("Let's get started!\nType the length of Side 1:");
         length1= in.nextInt();
 
         System.out.println("Type the length of Side 2:");
@@ -22,9 +18,10 @@ System.out.print("Welcome. You beleive you can make a triangle? Provide 3 length
 
         System.out.println("Type the length of Side 3:");
         length3= in.nextInt();
-
-      System.out.println(isTriangle);
-        }      
+    
+      System.out.println("The statement: This is a triangle. For lengths:  " + length1 + ", " + length2 + ", " + length3 + ", " + "is:  " + isTriangle(length1,length2,length3));
+    
+      } 
         
 	public static boolean isTriangle(int length1, int length2, int length3) {	
 
