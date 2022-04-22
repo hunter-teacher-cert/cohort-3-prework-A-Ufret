@@ -10,6 +10,7 @@ public static int banana(int[] a) {
     }
     return kiwi;
 }
+//The method "banana" takes an array of integers (a) and returns the product of all its elements.
 
 public static int grapefruit(int[] a, int grape) {
     for (int i = 0; i < a.length; i++) {
@@ -19,6 +20,8 @@ public static int grapefruit(int[] a, int grape) {
     }
     return -1;
 }
+//Answer: Variables: grapefruit=method, grape=target
+Description: Method grapefruit takes an array of integers and a second value (int grape)and it returns the index where the target value appears: It returns a 1 if the value is an element of the array, or -1 if not.
 
 public static int pineapple(int[] a, int apple) {
     int pear = 0;
@@ -29,3 +32,9 @@ public static int pineapple(int[] a, int apple) {
     }
     return pear;
 }
+//// Answer: 
+Variables: pineapple = method, apple=target, pear=i, pine= a[i]
+Description: Counts the total number of appearance(s) of "apple" in array a"
+     //Loop the array a 
+     // End when the i-th of the array a is apple.
+     // return pear.
