@@ -4,15 +4,18 @@ import java.util.*;
 public class Max { 
 
 public static void main(String[] args) {
-  int[] arr = new int[] arr{3,10,18,7,74};
-   printArray(array);
+  int[] a;
+a = new int[5]; 
+a = {1, 2, 3, 4, 5};
+
+System.out.println(Arrays.toString(a));
   }
 
-public static int indexOfMax(int[] arr, int lowIndex, int highIndex) {
+public static int indexOfMax(int[] a, int lowIndex, int highIndex) {
 		int indexOfMax = lowIndex;
 		
 		for (int i = lowIndex+1; i <= highIndex; i++) {
-			if (arr[i] > arr[indexOfMax]) {
+			if (a[i] > a[indexOfMax]) {
 				indexOfMax = i;
 			}
 		}
