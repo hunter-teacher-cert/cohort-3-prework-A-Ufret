@@ -1,5 +1,6 @@
 import java.io.*;
 import java.util.*;
+import /java.util.Arrays.*;
 
 public class Array1array { 
 
