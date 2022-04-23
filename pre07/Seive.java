@@ -4,8 +4,9 @@ import java.util.*;
 public class Seive { 
 
 public static void main(String[] args) {
+         int a[]= {4,10,-3,-44,15,75,60,12,51,19};
 
-    System.out.println(Arrays.toString(i));
+    System.out.println((indexOfMax(a)));
   }
  public static int indexOfMax(int[] a) {
         int l = 0;
