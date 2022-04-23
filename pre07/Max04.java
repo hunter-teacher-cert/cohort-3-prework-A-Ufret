@@ -2,8 +2,7 @@ import java.io.*;
 import java.util.*;
 import java.util.Arrays.*;
 
-public class testmax { 
-
+public class Max04 { 
 
 
 public static void main (String args[]){
