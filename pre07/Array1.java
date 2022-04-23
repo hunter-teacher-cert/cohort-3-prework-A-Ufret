@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-import /java.util.Arrays.*;
+import java.util.Arrays.*;
 
 public class Array1 { 
   public static void main(String[] args) {
@@ -15,7 +15,9 @@ public class Array1 {
 }
 }
 
-//Ch8 Ex1 Pt1: Starting with the code in Section 8.6 (pasted below), write a method called powArray that takes a double array, a, and returns a new array that contains the elements of a squared. Generalize it to take a second argument and raise the elements of a to the given power.
+//Ch8 Ex1 Question1 (Part 1) Starting with the code in Section 8.6 (pasted below), write a method called powArray that takes a double array, a, and returns a new array that contains the elements of a squared.
+//(Part 2*) Generalize it to take a second argument and raise the elements of a to the given power. (*found on Array1array.java)
+
 /*                       Code in section 8.6:
 import java.io.*;
 import java.util.*;
