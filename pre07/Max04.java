@@ -7,7 +7,7 @@ public class testmax {
 
 
 public static void main (String args[]){
-       int numbers[]= {1,5,-9,12,-3,89, 18,23,4,-6};
+       int numbers[]= {4,10,-3,-44,15,75,60,12,51,19};
 
          
   System.out.println("Maximum Value = " + getMaxValue(numbers));
