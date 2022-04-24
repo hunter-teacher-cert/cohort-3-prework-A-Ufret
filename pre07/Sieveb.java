@@ -37,30 +37,35 @@ class SieveOfEratosthenes
 		{
 			if(prime[i] == true)
 				System.out.print(i + " ");
+       SieveOfEratosthenes g = new SieveOfEratosthenes();
+  g.sieveOfEratosthenes(n);
 		}
 	}
- SieveOfEratosthenes g = new SieveOfEratosthenes();
-  g.sieveOfEratosthenes(n)
+
 
 		// Print all prime numbers
-
+  
 	public static void main(String[] args) {
-
+    
 Scanner in = new Scanner(System.in);
 		  int n; 
+       SieveOfEratosthenes g;
+     g.sieveOfEratosthenes(n);
     
-  
+       
+    
 	
 		System.out.print("\nWelcome to Ashley's Prime Calculator!"); 
     System.out.print("\nA prime number is a positive integer that has exactly 2 factors: 1 and the number itself. The Sieve of Eratosthenes is “a simple, ancient algorithm for finding all prime numbers up to any “given limit.”\n\nTry it! \n\nThink of any number larger than 1 to set as the “given limit.”\n\nUse Eratosthenes’ sieve to find all prime numbers between 0 and the number you chose as the “given limit” by entering your number below:\n");
 
-    n= in.nextInt();
+    n= in.nextInt();}
+  
 	    
-    System.out.print("\nThe Sieve of Eratosthenes searched between 1 and " + n + " for all prime numbers possible and found the following prime numbers:\n\n ");}
-   System.out.print(sieveOfEratosthenes(n));
+    System.out.print("\nThe Sieve of Eratosthenes searched between 1 and " + n + " for all prime numbers possible and found the following prime numbers:\n\n " + SieveOfEratosthenes(n));
     }
 	}
-}
+
+
 
 
 
