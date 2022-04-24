@@ -4,6 +4,25 @@ import java.util.Arrays.*;
 import java.util.Scanner;
 
 public class Sieve { 
+	public static void main(String[] args) {
+
+		Scanner in = new Scanner(System.in);
+
+		  int n; 
+			{
+	
+		System.out.println("\nWelcome to Ashley's Prime Calculator!"); 
+    System.out.print("\nA prime number is a positive integer that has exactly 2 factors: 1 and the number itself. The Sieve of Eratosthenes is “a simple, ancient algorithm for finding all prime numbers up to any “given limit.”\n\nTry it! \n\nThink of any number larger than 1 to set as the “given limit.”\n\nUse Eratosthenes’ sieve to find all prime numbers between 0 and the number you chose as the “given limit” by entering your number below:\n");
+
+    n= in.nextInt();
+    
+    System.out.print("The Sieve of Eratosthenes searched between 1 and " + n + " for all prime numbers possible and found the following prime numbers:\n\n ");
+
+		SieveOfEratosthenes g = new SieveOfEratosthenes();
+		g.sieveOfEratosthenes(n);
+	}
+}
+
 
 	
 
@@ -33,38 +52,17 @@ class SieveOfEratosthenes
 		}
 		
 		// Print all prime numbers
-
-	}
-
-	public static void main(String[] args) {
-
-		Scanner in = new Scanner(System.in);
-
-		  int n; 
-	
-	
-		System.out.println("\nWelcome to Ashley's Prime Calculator!"); 
-    System.out.print("\nA prime number is a positive integer that has exactly 2 factors: 1 and the number itself. The Sieve of Eratosthenes is “a simple, ancient algorithm for finding all prime numbers up to any “given limit.”\n\nTry it! \n\nThink of any number larger than 1 to set as the “given limit.”\n\nUse Eratosthenes’ sieve to find all prime numbers between 0 and the number you chose as the “given limit” by entering your number below:\n");
-
-    n= in.nextInt();
-		int i;
-    		for(int i = 2; i <= n; i++)
+		for(int i = 2; i <= n; i++)
 		{
 			if(prime[i] == true)
 				System.out.print(i + " ");
-		} 
-    
-    System.out.print("The Sieve of Eratosthenes searched between 1 and " + n + " for all prime numbers possible and found the following prime numbers:\n\n " + i);
-
-		SieveOfEratosthenes g = new SieveOfEratosthenes();
-		g.sieveOfEratosthenes(n);
-	
-}
+		}
+	}
 
 
 	            	}
 }
-   
+    }
 
 //Ch8 Exercise 5   The Sieve of Eratosthenes is “a simple, ancient algorithm for finding all prime numbers up to any given limit,” which you can read about at https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes.
 //Write a method called sieve that takes an integer parameter, n, and returns a boolean array that indicates, for each number from 0 to n - 1, whether the number is prime.
