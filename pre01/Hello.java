@@ -7,7 +7,8 @@ public class Hello {
         System.out.println("How are you?");
       }
 }
-    //comments - vocab to remember
+ //notes for prework- vocab to remember
+   //comments - */ at beginning end for block comments
 //variable - stores some value (numbers, words, images,operators, or symbols)set using String message;
 //literals - the value assigned to a variable
 //variable name - storage location

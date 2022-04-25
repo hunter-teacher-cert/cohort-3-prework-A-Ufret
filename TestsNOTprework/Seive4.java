@@ -15,7 +15,7 @@ public static void main(String[] args) {
       }
       return index;
    }
-//part two - can you write this "with enhanced for loop"?
+
    public static int indexOfMaxWrittenInEnhancedForLoop(int[] numbers){
       int index = 0;
       int i = 0;
