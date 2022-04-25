@@ -48,6 +48,6 @@ public class Sieve05scan {
 }
 	
 //Ch8 Exercise 5   The Sieve of Eratosthenes is “a simple, ancient algorithm for finding all prime numbers up to any given limit,” which you can read about at https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes.
-//Write a method called sieve that takes an integer parameter, n, and returns a boolean array that indicates, for each number from 0 to n - 1, whether the number is prime.
+//Write a method called sieve that takes an integer parameter, n, and returns a *boolean array that indicates, for each number from 0 to n - 1, whether the number is prime.
 
-//if time permits://add scanner to replace list of integers with input value and set say "Yes, "it" is a prime number." OR "No, "it" is not a prime number."
+//*if time permits://include boolean (debug Sieve5a2 in Tests folder)

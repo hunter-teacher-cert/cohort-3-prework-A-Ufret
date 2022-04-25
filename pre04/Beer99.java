@@ -27,7 +27,7 @@ public class Beer99 {
         }
       }
     }
-        //I did it! 
+        //I did it! (debugged after learning the while loop in ch 7)
        //formatting corrected!! remember \n to go to new line 
  //add else for 2 bottles so last line reads 1 bottle
 

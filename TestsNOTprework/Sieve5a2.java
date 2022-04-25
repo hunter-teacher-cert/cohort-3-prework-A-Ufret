@@ -4,11 +4,25 @@ import java.util.Arrays.*;
 import java.util.Scanner;
 
 public class Sieve5a2 { 
-  	Scanner in = new Scanner(System.in);
-		int n; 
+  
   
 public static void main(String[] args) {
-  }
+  	Scanner in = new Scanner(System.in);
+		int n; 
+                
+		System.out.println("\nWelcome to Ashley's Prime Calculator!"); 
+    System.out.print("\nA prime number is a positive integer that has exactly 2 factors: 1 and the number itself. The Sieve of Eratosthenes is “a simple, ancient algorithm for finding all prime numbers up to any “given limit.”\n\nTry it! \n\nThink of any number larger than 1 to set as the “given limit.”\n\nUse Eratosthenes’ sieve to find all prime numbers between 0 and the number you chose as the “given limit” by entering your number below:\n");
+
+    n= in.nextInt();
+
+		// Print all prime numbers
+	
+    System.out.print("The Sieve of Eratosthenes searched between 1 and " + n + " for all prime numbers possible and found the following prime numbers:\n\n ");
+ 
+            
+      }
+      
+      
 
     void Sieve5a2(int n)
 	{
@@ -38,24 +52,10 @@ public static void main(String[] args) {
               }
       }
     
-		
-
-	
-              
-		System.out.println("\nWelcome to Ashley's Prime Calculator!"); 
-    System.out.print("\nA prime number is a positive integer that has exactly 2 factors: 1 and the number itself. The Sieve of Eratosthenes is “a simple, ancient algorithm for finding all prime numbers up to any “given limit.”\n\nTry it! \n\nThink of any number larger than 1 to set as the “given limit.”\n\nUse Eratosthenes’ sieve to find all prime numbers between 0 and the number you chose as the “given limit” by entering your number below:\n");
-
-    n= in.nextInt();
-
-		// Print all prime numbers
-	
-    System.out.print("The Sieve of Eratosthenes searched between 1 and " + n + " for all prime numbers possible and found the following prime numbers:\n\n ");
- 
-            
-      }
-      
     }
- 
+}
+	
+
     
 
 
