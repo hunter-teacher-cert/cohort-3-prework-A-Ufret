@@ -34,20 +34,25 @@ class SieveOfEratosthenes
 		{
 			if(prime[i] == true)
 				System.out.print(i + " ");
-		}
-	}
-	
-	// Driver Program to test above function
-	public static void main(String args[])
-	{
-		int n = 30;
-		System.out.print("Following are the prime numbers ");
-		System.out.println("smaller than or equal to " + n);
+  
+    
+    n = i;
 		SieveOfEratosthenes g = new SieveOfEratosthenes();
 		g.sieveOfEratosthenes(n);
-	}
-}
 
+      }
+    }
+	
+	// Driver Program to test above function
+	public static void main(String args[]){
+
+		System.out.print("Following are the prime numbers ");
+		System.out.println("smaller than or equal to " + n);
+    
+	
+}
+}
+}
 
 
 //Ch8 Exercise 5   The Sieve of Eratosthenes is “a simple, ancient algorithm for finding all prime numbers up to any given limit,” which you can read about at https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes.
