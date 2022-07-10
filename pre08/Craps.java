@@ -5,7 +5,7 @@ import java.util.*;
 public class Craps {
 
   public static void main(String[] args){
-
+//IMPORTANT NOTE: When you run the program you have to enter the number of rounds you want to play after the class name!! ie: java Craps 6
     int numofRounds = Integer.parseInt(args[0]);
     for (int i = 1; i <= numofRounds; i++){
       System.out.println(round());

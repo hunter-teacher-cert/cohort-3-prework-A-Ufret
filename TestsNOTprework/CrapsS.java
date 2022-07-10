@@ -4,17 +4,23 @@ import java.util.*;
 
 public class CrapsS {
 
-  public static void main(String[] args){
+
+    public static void main(String[] args){
+
   Scanner in= new Scanner(System.in);
-
-
- int numofRounds; 
+int numofRounds;
+int i;
 
            System.out.print("Welcome to Ashley's Game of Craps!");
-    System.out.print("\nPlease enter the Number of Rounds you want to play.");  
-        numofRounds= Integer.parseInt(args[  + in.nextInt()]);
+    System.out.print("\nPlease enter the Number of Rounds you want to play.\n");  
+        numofRounds= in.nextInt();
+        numofRounds= Integer.parseInt(args[0]);
+    for ( i = 1; i <= numofRounds; i++);
     
+      System.out.println(round());
   }
+       
+  
     
   
  
